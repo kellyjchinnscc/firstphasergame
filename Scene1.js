@@ -12,42 +12,42 @@ class Scene1 extends Phaser.Scene {
 
         // ship spritesheets
         this.load.spritesheet("ship", "assets/spritesheets/ship.png", {
-                frameWidth: 40,
-                frameHeight: 40
+                frameWidth: 16,
+                frameHeight: 16
             }
         );
 
         this.load.spritesheet("ship2", "assets/spritesheets/ship2.png", {
-                frameWidth: 70,
-                frameHeight: 50
+                frameWidth: 32,
+                frameHeight: 16
             }
         );
 
         this.load.spritesheet("ship3", "assets/spritesheets/ship3.png", {
-                frameWidth: 90,
-                frameHeight: 90
+                frameWidth: 32,
+                frameHeight: 32
             }
         );
 
         // explosion, power-up, beam and player spritesheets
         this.load.spritesheet("explosion", "assets/spritesheets/explosion.png", {
-            frameWidth: 100,
-            frameHeight: 100
+            frameWidth: 16,
+            frameHeight: 16
         })
 
         this.load.spritesheet("power-up", "assets/spritesheets/power-up.png", {
-            frameWidth: 60,
-            frameHeight: 60
+            frameWidth: 16,
+            frameHeight: 16
         })
 
         this.load.spritesheet("player", "assets/spritesheets/player.png", {
-            frameWidth: 80,
-            frameHeight: 80
+            frameWidth: 16,
+            frameHeight: 24
         })
 
         this.load.spritesheet("beam", "assets/spritesheets/beam.png", {
-            frameWidth: 40,
-            frameHeight: 40
+            frameWidth: 16,
+            frameHeight: 16
         })
 
         this.load.bitmapFont("pixelFont", "assets/font/font.png", "assets/font/font.xml")
