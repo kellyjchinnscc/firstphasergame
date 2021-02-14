@@ -1,8 +1,8 @@
 window.onload = function() {
     // config object to store the game canvas settings
     let config = {
-        width: 400,
-        height: 400,
+        width: 800,
+        height: 800,
         backgroundColor: 0X000000,
         scene: [Scene1, Scene2],
         pixelArt: true,
